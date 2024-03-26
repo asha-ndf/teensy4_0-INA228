@@ -1,4 +1,5 @@
-# teensy4_0-INA228
+# teensy4_0-INA228  
+[![Teensy Compile Checkk](https://github.com/asha-ndf/teensy4_0-INA228/actions/workflows/compile.yml/badge.svg)](https://github.com/asha-ndf/teensy4_0-INA228/actions/workflows/compile.yml)  
 
 * INA228をTeensy4.0で使用するプログラム
 
