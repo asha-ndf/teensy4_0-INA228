@@ -1,5 +1,11 @@
 # teensy4_0-INA228
+
 * INA228をTeensy4.0で使用するプログラム
+
+## 参考資料
+
+* [INA228 モジュール データシート](https://www.strawberry-linux.com/pub/ina228-manual.pdf)
+* [INA228 IC データシート](https://www.ti.com/jp/lit/ds/symlink/ina228.pdf)
 
 ## 出力データ例
 
