@@ -2,7 +2,7 @@
 
 ## 使用しているライブラリ
 
-* [Adafruit_INA228](https://github.com/adafruit/Adafruit_INA228/tree/main) (三条項BSDライセンス)
+* [Adafruit_INA228](https://github.com/adafruit/Adafruit_INA228) (三条項BSDライセンス)
   * [Adafruit_INA228.cpp](./Adafruit_INA228.cpp)
   * [Adafruit_INA228.h](./Adafruit_INA228.h)
 * [Adafruit_BusIO](https://github.com/adafruit/Adafruit_BusIO) (MITライセンス)

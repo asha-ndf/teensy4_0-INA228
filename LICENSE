@@ -1,11 +1,11 @@
-## Adafruit_INA228
+Adafruit_INA228
 * Adafruit_INA228.cpp
 * Adafruit_INA228.h
 
 
 Software License Agreement (BSD License)
 
-Original software Copyright (c) 2022, Adafruit Industries
+Original software Copyright (c) 2022, Adafruit Industries Modifications by Asha 2024
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
@@ -30,18 +30,20 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ===========================================================================
-## Adafruit_BusIO
+Adafruit_BusIO
 
 * Adafruit_BusIO_Register.cpp
 * Adafruit_BusIO_Register.h
 * Adafruit_I2CDevice.cpp
 * Adafruit_I2CDevice.h
 * Adafruit_I2CRegister.h
+* Adafruit_SPIDevice.cpp
+* Adafruit_SPIDevice.h
 
 
 The MIT License (MIT)
 
-Copyright (c) 2017 Adafruit Industries
+Original software Copyright (c) 2017 Adafruit Industries Modifications by Asha 2024
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

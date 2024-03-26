@@ -6,8 +6,8 @@
 #if !defined(SPI_INTERFACES_COUNT) ||                                          \
     (defined(SPI_INTERFACES_COUNT) && (SPI_INTERFACES_COUNT > 0))
 
-#include <Adafruit_I2CDevice.h>
-#include <Adafruit_SPIDevice.h>
+#include "Adafruit_I2CDevice.h"
+#include "Adafruit_SPIDevice.h"
 
 typedef enum _Adafruit_BusIO_SPIRegType {
   ADDRBIT8_HIGH_TOREAD = 0,

@@ -18,8 +18,8 @@
 #define _ADAFRUIT_INA228_H
 
 #include "Arduino.h"
-#include <Adafruit_I2CDevice.h>
-#include <Adafruit_I2CRegister.h>
+#include "Adafruit_I2CDevice.h"
+#include "Adafruit_I2CRegister.h"
 #include <Wire.h>
 
 #define INA228_I2CADDR_DEFAULT 0x40 ///< INA228 default i2c address
