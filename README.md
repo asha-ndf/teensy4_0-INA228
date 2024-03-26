@@ -1,4 +1,10 @@
 # teensy4_0-INA228
+* INA228をTeensy4.0で使用するプログラム
+
+## 出力データ例
+
+* [デバッグモード](./data/debug-ture.txt)
+* [ノーマルモード](./data/debug-false.txt)
 
 ## 使用しているライブラリ
 

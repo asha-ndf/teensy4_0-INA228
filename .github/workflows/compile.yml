@@ -1,0 +1,23 @@
+name: Teensy Compile Checkk
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    name: Compile Sketch
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Arduino CLI
+        uses: arduino/setup-arduino-cli@v1
+
+      - name: Install platform
+        run: |
+          arduino-cli config init --additional-urls https://www.pjrc.com/teensy/td_156/package_teensy_index.json
+          arduino-cli core update-index
+          arduino-cli core search teensy
+          arduino-cli core install teensy:avr
+          arduino-cli lib install ArduinoJson@5.13.5
+      - name: Compile Sketch
+        run: arduino-cli compile --fqbn teensy:avr:teensy40 ./teensy4_0-INA228.ino
