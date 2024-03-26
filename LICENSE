@@ -1,4 +1,4 @@
-
+## Adafruit_INA228
 * Adafruit_INA228.cpp
 * Adafruit_INA228.h
 
@@ -30,6 +30,8 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ===========================================================================
+## Adafruit_BusIO
+
 * Adafruit_BusIO_Register.cpp
 * Adafruit_BusIO_Register.h
 * Adafruit_I2CDevice.cpp
